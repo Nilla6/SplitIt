@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+        
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button full type="submit" (click)="">Log in</button>
+
+  <div class="login-footer">
+		<p>
+			<a (click)="">Forgot password?</a>
+			If you're a new user, please sign up.
+		</p>
+  </div>
+</ion-content>
+
+<ion-footer no-border>
+  <ion-row>
+    <ion-col style="text-align: left">
+      <button ion-button clear (click)=''>
+        <ion-icon name="person-add"></ion-icon>
+         Sign Up
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-footer>

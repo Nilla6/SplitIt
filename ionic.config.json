@@ -1,0 +1,8 @@
+{
+  "name": "SplitIT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "eac2ebeb"
+}
